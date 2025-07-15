@@ -16,6 +16,17 @@ public class TestotomasyonuPage {
     @FindBy (id = "global-search")
     public WebElement searchBox;
 
+    @FindBy (xpath = "(//*[.='Account'])[1]")
+    public WebElement accountButton;
+
+    @FindBy (id = "email")
+    public WebElement loginPageEmailBox;
+
+    @FindBy (id = "password")
+    public WebElement loginPagePasswordBox;
+
+    @FindBy (id = "submitlogin")
+    public WebElement loginPageSubmitButton;
 
 
 }
