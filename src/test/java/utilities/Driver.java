@@ -10,6 +10,9 @@ import java.time.Duration;
 
 public class Driver {
 
+    private Driver(){
+    } // For blocking to create an object from this class
+
     public static WebDriver driver;
 
     public static WebDriver getDriver() {
